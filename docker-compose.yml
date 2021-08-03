@@ -1,3 +1,13 @@
+# File derived from https://github.com/CTFd/CTFd/blob/d0813e72963e34773937ba41118a8b717a02a665/docker-compose.yml
+# Copyright 2015-present CTFd LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+# https://github.com/CTFd/CTFd/blob/14ea952a2a61f71affc1d869052b661b68f1d200/LICENSE
+
 version: '2'
 
 services:
