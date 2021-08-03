@@ -1,0 +1,18 @@
+{
+	admin off
+}
+ctfd.test:80 {
+	reverse_proxy ctfd:8000
+	encode zstd gzip
+
+	log {
+		output stdout
+		format single_field common_log
+	}
+
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy same-origin
+	}
+}
